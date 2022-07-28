@@ -8,8 +8,6 @@
     <!-- bootstrap cdn css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- custom css -->
-    <link rel="stylesheet" href="styles.css">
     <!-- fontawsome link -->
     <script src="https://kit.fontawesome.com/9eceb474d5.js" crossorigin="anonymous"></script>
 </head>
@@ -136,7 +134,7 @@
             <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 my-5 g-4">
                 <!-- course-1 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-1.png" class="img-fluid" alt="">
                             <div class="p-4">
@@ -151,7 +149,7 @@
                 </div>
                 <!-- course-2 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-2.png" class="img-fluid" alt="">
                             <div class="p-4">
@@ -166,7 +164,7 @@
                 </div>
                 <!-- course-3 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-3.png" class="img-fluid" alt="">
                             <div class="p-4">
@@ -181,7 +179,7 @@
                 </div>
                 <!-- course-4 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-4.png" class="img-fluid h-auto" alt="">
                             <div class="p-4">
@@ -196,7 +194,7 @@
                 </div>
                 <!-- course-5 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-5.png" class="img-fluid" alt="">
                             <div class="p-4">
@@ -211,7 +209,7 @@
                 </div>
                 <!-- course-6 -->
                 <div class="col">
-                    <div class="card border-0 shadow-lg rounded-2">
+                    <div class="card border d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block">
                         <div class="d-flex flex-md-row d-sm-flex flex-column">
                             <img src="images/course/course-6.png" class="img-fluid" alt="">
                             <div class="p-4">
@@ -233,7 +231,7 @@
         <!-- popular courses section end -->
         <!-- explore the elearning section start -->
         <section class="container my-5">
-            <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
                 <!-- student 01 -->
                 <div class="col">
                     <div class="card border-0">
@@ -270,7 +268,7 @@
                                 <p>Rating & Review</p>
                             </div>
                         </div>
-                        <button class="btn btn-primary px-3 w-25">Read More</button>
+                        <button class="btn btn-primary px-3 w-50">Read More</button>
                     </div>
                 </div>
             </div>
@@ -278,14 +276,14 @@
         <!-- explore the elearning section end -->
         <!-- Ready to join section start -->
         <section class="container my-5">
-            <div class="row row-cols-1 row-cols-lg-1 row-cols-md-1 my-5">
+            <div class="row row-cols-1 row-cols-md-1 text-center my-5">
                 <div class="col">
                     <div class="card border-0 bg-primary rounded-4 p-5">
                         <div
-                            class="p-3 d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center d-md-flex flex-md-column">
-                            <div>
+                            class="p-3 d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center d-md-flex flex-md-column justify-content-md-center align-items-md-center d-sm-flex flex-sm-column justify-content-sm-center align-items-sm-center">
+                            <div class="w-50">
                                 <h1 class="display-6 fw-bold text-white">Ready to join?</h1>
-                                <p class="text-white fs-6 fw-bold w-50">It is a long established fact that a reader will
+                                <p class="text-white fs-6 fw-bold">It is a long established fact that a reader will
                                     be
                                     distracted by the
                                     readable
@@ -293,9 +291,11 @@
                                     a
                                     page when looking at its layout.</p>
                             </div>
-                            <button type="button" class="btn btn-light text-primary px-5 py-2 fs-6 fw-bold"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now
-                            </button>
+                            <div class="w-50 text-lg-end">
+                                <button type="button" class="btn btn-light text-primary px-5 py-2 fs-6 fw-bold"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now
+                                </button>
+                            </div>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
@@ -308,19 +308,19 @@
                                         </div>
                                         <div class="modal-body">
                                             <form>
-                                                <div class="mb-3">
+                                                <div class="mb-3 text-start">
                                                     <label for="exampleFormControlInput1" class="form-label">Full
                                                         Name</label>
                                                     <input type="fullname" class="form-control"
                                                         id="exampleFormControlInput1" placeholder="Enter you Full Name">
                                                 </div>
-                                                <div class="mb-3">
+                                                <div class="mb-3 text-start">
                                                     <label for="exampleFormControlInput1" class="form-label">Email
                                                         address</label>
                                                     <input type="email" class="form-control"
                                                         id="exampleFormControlInput1" placeholder="name@example.com">
                                                 </div>
-                                                <div class="mb-3">
+                                                <div class="mb-3 text-start">
                                                     <label for="exampleFormControlInput1"
                                                         class="form-label">Address</label>
                                                     <input type="text" class="form-control"
