@@ -1,5 +1,6 @@
 @media only screen and (max-width:576px) {
     .mobile-view {
-        flex-direction: column;
+        width: 274px;
+        height: 184px;
     }
 }
